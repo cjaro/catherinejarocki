@@ -1,0 +1,56 @@
+h1{
+  font-size: 36px
+}
+h2{
+  font-size: 32px
+}
+h3{
+  font-size: 28px
+}
+p{
+  font-size: 14px
+}
+.header-intro{
+  margin: 30px auto
+}
+.header-top{
+  display: flex
+}
+.header-headshot{
+  margin-top: 20px;
+margin-bottom: 10px;
+}
+.headshot{
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000
+}
+.header-links{
+  display: flex;
+  flex-direction: column;
+}
+button a{
+  color: #fff
+}
+a:hover{
+  text-decoration: none !important;
+}
+footer{
+
+bottom: 0;
+}
+.card{
+  width: 100% !important;
+  border: 0.5px solid #ddd;
+  border-radius: .25rem;
+}
+.card-group{
+  display: flex !important;
+  flex-direction: column;
+  border: 0.5px solid #ddd;
+}
+.card-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
