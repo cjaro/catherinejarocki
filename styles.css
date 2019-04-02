@@ -34,6 +34,29 @@ p {
   flex-direction: column;
 }
 
+.work-logo {
+  height: 75px;
+}
+
+.cw-logo {}
+
+.ac-logo {}
+
+.bpt-logo {}
+
+.drpm-logo {}
+
+.lf-logo {
+  background-color: #00ADEF;
+}
+
+.csbsju-logo {}
+
+.xprnce-individual {
+  display: flex;
+  justify-content: space-between
+}
+
 button a {
   color: #fff
 }
