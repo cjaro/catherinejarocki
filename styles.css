@@ -21,7 +21,7 @@ li {
 
 .header-intro {
   margin: 30px auto;
-  padding-left: 0
+  /* padding-left: 0 */
 }
 
 .header-top {
@@ -40,6 +40,17 @@ li {
   display: flex;
   flex-direction: column;
   padding-left: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px
+}
+
+.sublinks {
+  margin: 10px 0
 }
 
 .work-logo {
