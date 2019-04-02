@@ -82,6 +82,7 @@ li {
 
 .job-title {
   display: flex;
+  justify-content: space-between;
 }
 
 button a {
