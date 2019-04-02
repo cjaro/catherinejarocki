@@ -1,56 +1,66 @@
-h1{
+h1 {
   font-size: 36px
 }
-h2{
+
+h2 {
   font-size: 32px
 }
-h3{
+
+h3 {
   font-size: 28px
 }
-p{
+
+p {
   font-size: 14px
 }
-.header-intro{
+
+.header-intro {
   margin: 30px auto
 }
-.header-top{
+
+.header-top {
   display: flex
 }
-.header-headshot{
-  margin-top: 20px;
-margin-bottom: 10px;
+
+.header-headshot {}
+
+.headshot {
+  height: 300px;
+  width: 300px;
 }
-.headshot{
-  height: 150px;
-  width: 150px;
-  border: 1px solid #000
-}
-.header-links{
+
+.header-links {
   display: flex;
   flex-direction: column;
 }
-button a{
+
+button a {
   color: #fff
 }
-a:hover{
+
+a:hover {
   text-decoration: none !important;
 }
-footer{
 
-bottom: 0;
+footer {
+
+  bottom: 0;
 }
-.card{
+
+.card {
   width: 100% !important;
   border: 0.5px solid #ddd;
   border-radius: .25rem;
 }
-.card-group{
+
+.card-group {
   display: flex !important;
   flex-direction: column;
   border: 0.5px solid #ddd;
   border-radius: .25rem;
 }
-.card-header{
+
+.card-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
