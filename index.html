@@ -2,12 +2,14 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" />
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
     <title>CJ's Portfolio ~ I'm a mess but it's fun.</title>
 </head>
 
@@ -20,13 +22,31 @@
                 <h4>Software & Web Developer</h4>
                 <div class="links">
 
-                    <a href="mailto:cjarocki@gmail.com" class="sublinks"><button class="btn btn-dark" type="button"
+                    <a href="mailto:cjarocki@gmail.com" class="sublinks" target="_blank"><button class="btn btn-dark" type="button"
               name="button">Email</button></a>
-                    <a href="https://github.com/cjaro" class="sublinks"><button class="btn btn-dark" type="button"
+                    <a href="https://github.com/cjaro" class="sublinks" target="_blank"><button class="btn btn-dark" type="button"
               name="button">GitHub</button></a>
-                    <a href="https://linkedin.com/in/catherinejarocki" class="sublinks"><button class="btn btn-dark" type="button"
+                    <a href="https://linkedin.com/in/catherinejarocki" class="sublinks" target="_blank"><button class="btn btn-dark" type="button"
               name="button">LinkedIn</button></a>
                 </div>
+                    <div id="card-header-about-me" data-toggle="collapse" href="#collapse-about-me">
+                        <p id="plus-minus">About Me ++</p>
+                    </div>
+                    <div id="collapse-about-me" class="card-collapse collapse hide">
+                        <div class="about-me">
+                            <p>Hello! My name is Catherine. I'm a software engineer in Minnesota, and I work mainly with JavaScript and PHP. </p>
+                            <p>I am always excited about jobs and workplaces where my talents can not only be put to work, but can soar. </p>
+                            <p>I have been successful working on teams that provide support, peer programming opportunities, and self-governing independence. I appreciate being able to ask my coworkers for help or advice when I'm out of ideas, but I strongly
+                                value the skills I gain when I am forced or driven to hunt down solutions to my own tasks, problems, and questions. As a self-taught programmer with some formal education, I have been able to benefit from both guided problem
+                                solving and independence. </p>
+                            <p> I’ve had the opportunity to work in four different workplaces in the last two years of my professional career. While this certainly has been less stable than crunching away at the same job for the last two years, it has afforded
+                                me a wealth of experiences that I believe would have taken much longer to garner had I stayed in one place. I’ve gotten to work at agencies, as an in-house developer, and freelancing/contracting, and as such, I have an
+                                incredibly clear picture of what works for me and what doesn’t. I know the kind of work environment where I can do my best work, and even though this has come at the cost of painful realizations, soul searching, and trial-and-errors
+                                aplenty, I’ve grown through the hard times and losses, learned invaluable lessons about both this industry and myself, and I bring the honesty and truth with which those struggles and successes have equipped me to every
+                                interview, work day, and task at hand.
+                            </p>
+                        </div>
+                    </div>
             </div>
             <div class="col-md-4 header-headshot">
                 <img src="assets/profilephoto.jpg" alt="headshot" class="headshot">
@@ -40,7 +60,7 @@
                 <div class="card-header" data-toggle="collapse" href="#collapse3">
                     <h3 class="card-title">Work Experience</h3>
                 </div>
-                <div id="collapse3" class="card-collapse collapse show">
+                <div id="collapse3" class="card-collapse collapse hide">
                     <div class="card-body xprnce-parent">
                         <div class="xprnce-individual">
                             <div class="job-title">
@@ -52,11 +72,11 @@
                             </div>
                             <div class="job-description">
                                 <p><em>June 2019 - Present</em></p>
-                                <p>I craft and support our APIs that other developers love to build upon, working as part of a highly collaborative team to maintain existing and assist in the implementation of new APIs.</p>
-                                <p>Pulling on my knowledge and experience with Understanding of Web APIs / HTTP / REST / JSONevelop interfaces to communicate with data processing platforms which serve a multitude of data sets, which I can process & combine
-                                    to build innovative new products</p>
-                                <p>In this endeavor, I draw upon my experience with design, development, deployment, versioning and maintenance of secure RESTful APIsand my comfort with server-side languages like PHP and related frameworks & platforms, as
-                                    well as SQL/NoSQL databases</p>
+                                <p>I craft and support our APIs that other developers love to build upon, working as part of a highly collaborative team to maintain existing and assist in the implementation of new APIs. Pulling on my knowledge and experience with Understanding of Web APIs / HTTP / REST / JSONevelop interfaces to communicate with data processing platforms which serve a multitude of data sets, which I can process & combine
+                                    to build innovative new products. In this endeavor, I draw upon my experience with Node.js, TypeScript, Python, MongoDB, and Bash for the design, development, deployment, versioning and maintenance of secure RESTful APIsand my comfort with server-side languages
+                                    like PHP and related frameworks & platforms, as well as SQL/NoSQL databases. We also use Docker & Kubernetes and AWS for container & cluster management, and microservice architecture.</p>
+                                <p>Of course, to have even found Aeris on my radar (pun intended), my interest in weather and weather-related technologies drew me forward into this position, fueling my passion and curiosity for weather patterns and its effects
+                                    on such a wide array of industries.</p>
                             </div>
                         </div>
                         <hr>
@@ -182,42 +202,31 @@
                 </div>
                 <div id="collapse2" class="card-collapse collapse">
                     <div class="card-body techskills-parent">
-                        <table style="width: 100%">
-                            <tr>
-                                <td>
-                                    <li>HTML</li>
-                                    <li>CSS
-                                        <ul>
-                                            <li>Sass</li>
-                                            <li>Less</li>
-                                            <li>Bootstrap</li>
-                                            <li>Bulma</li>
-                                        </ul>
-                                    </li>
-                                </td>
-                                <td>
-                                    <li>JavaScript
-                                        <ul>
-                                            <li>jQuery</li>
-                                            <li>Angular </li>
-                                            <li>React</li>
-                                            <li>Vue</li>
-                                            <li>Node.js</li>
-                                            <li>Express </li>
-                                        </ul>
-                                    </li>
-                                </td>
-                                <td>
-                                    <li>PHP</li>
-                                    <li>WordPress</li>
-                                    <li>C# & ASP.NET</li>
-                                    <li>AWS</li>
-                                    <li>SQL</li>
-                                    <li>SVN & Git Version Control</li>
-                                    <li>SEO</li>
-                                </td>
-                            </tr>
-                        </table>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                          <ul>
+                            <li>Sass</li>
+                            <li>Less</li>
+                            <li>Bootstrap</li>
+                            <li>Bulma</li>
+                          </ul>
+                          <p>JavaScript</p>
+                            <ul>
+                              <li>jQuery</li>
+                                <li>Angular </li>
+                                <li>React</li>
+                                <li>Vue</li>
+                                <li>Node.js</li>
+                                <li>Express </li>
+                               </ul>
+                           <p>PHP</p>
+                           <p>WordPress</p>
+                           <p>C#</p>
+                           <p>ASP.NET</p>
+                           <p>AWS</p>
+                           <p>SQL</p>
+                           <p>SVN & Git [Version Control]</p>
+                           <p>SEO</p>
                     </div>
                 </div>
             </div>
