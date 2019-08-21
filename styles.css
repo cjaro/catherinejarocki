@@ -1,5 +1,6 @@
 .container {
     max-width: 1000px !important;
+    margin-bottom: 60px;
 }
 
 h1 {
@@ -83,14 +84,12 @@ li {
 .drpm-logo {}
 
 .csbsju-logo {
-    Max-width: 350px
+    Max-width: 300px
 }
 
 .lf-logo {
     background-color: #00ADEF;
 }
-
-.csbsju-logo {}
 
 .xprnce-individual {
     /* display: flex; */
