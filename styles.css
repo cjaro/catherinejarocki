@@ -25,12 +25,10 @@ li {
 
 .header-intro {
     margin: 30px auto;
-    /* padding-left: 0 */
 }
 
 .header-top {
     display: flex;
-    padding-left: 0
 }
 
 .header-headshot {}
