@@ -30,6 +30,7 @@ li {
 
 .header-top {
     display: flex;
+    margin-bottom: 15px !important;
 }
 
 .header-headshot {}
