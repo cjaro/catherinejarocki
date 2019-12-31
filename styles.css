@@ -1,27 +1,54 @@
+html {
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    padding: 0 15px
+}
+
 .container {
-    max-width: 1000px !important;
+    max-width: 800px !important;
     margin-bottom: 60px;
+    margin: auto
 }
 
 h1 {
-    font-size: 32px
+    font-size: 32px;
 }
 
 h2 {
-    font-size: 28px
+    font-size: 28px;
 }
 
 h3 {
-    font-size: 24px
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 20px
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 15px 0;
+    font-weight: 300
 }
 
 p,
 li {
-    font-size: 14px
+    font-size: 14px;
+    line-height: 1.25;
 }
 
 .header-intro {
@@ -31,6 +58,7 @@ li {
 .header-top {
     display: flex;
     margin-bottom: 15px !important;
+    justify-content: space-between;
 }
 
 .header-links {
@@ -47,7 +75,20 @@ li {
 }
 
 .sublinks {
-    margin-right: 15px
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: rgb(102, 125, 255);
+    font-weight: 300
+}
+
+button {
+    border: none;
+    background-color: #fff;
 }
 
 .work-logo {
@@ -93,13 +134,12 @@ footer {
 }
 
 .section {
-    border-top: 1px solid #eee;
     margin: 15px 0
 }
 
 .section h1 {
-    border-bottom: 2px solid #0000FF;
-    border-top: 2px solid #0000FF;
+    border-bottom: 2px solid rgb(102, 125, 255);
+    border-top: 2px solid rgb(102, 125, 255);
     margin: 10px 0;
     padding: 15px 0
 }
@@ -107,8 +147,26 @@ footer {
 .techskills-parent {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .techskills-parent>div>p {
     margin: 5px 0
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 800px) {
+    .header-top {
+        flex-direction: column;
+        align-content: center;
+    }
+    .job-title {
+        flex-direction: column-reverse;
+    }
+    .work-logo {
+        max-height: 75px;
+        margin: 0 auto;
+    }
 }
