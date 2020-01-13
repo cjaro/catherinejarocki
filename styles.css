@@ -127,6 +127,10 @@ button {
     justify-content: space-between;
 }
 
+.techskills-parent>div {
+    width: 33%;
+}
+
 button a {
     color: #fff
 }
