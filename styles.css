@@ -117,9 +117,13 @@ button {
     background-color: #00ADEF;
 }
 
-.xprnce-individual {
-    /* display: flex; */
-    /* justify-content: space-between */
+
+.nb-logo {
+    max-width: 250px;
+}
+
+.experience-individual {
+
 }
 
 .job-title {
