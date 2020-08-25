@@ -7,19 +7,14 @@ html {
 
 body {
     margin: auto;
-    padding: 0 15px;
-    background-color: black;
 }
 
 .wrapper {
     background-color: white;
-    padding: 30px
 }
 
 .container {
     max-width: 800px !important;
-    margin-bottom: 60px;
-    margin: auto
 }
 
 h1 {
@@ -72,6 +67,16 @@ li {
     padding-left: 0;
 }
 
+.name-title {
+    display: flex;
+
+}
+
+.header-profile-picture {
+    max-width: 100px;
+}
+
+
 .links {
     display: flex;
     flex-direction: row;
@@ -117,9 +122,13 @@ button {
     background-color: #00ADEF;
 }
 
-.xprnce-individual {
-    /* display: flex; */
-    /* justify-content: space-between */
+
+.nb-logo {
+    max-width: 250px;
+}
+
+.experience-individual {
+
 }
 
 .job-title {
