@@ -182,7 +182,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
     .wrapper {
-        margin: 0 15px;
+        margin: 0 15px 30px 15px;
     }
     .header-top {
         flex-direction: column;
