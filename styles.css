@@ -173,13 +173,24 @@ footer {
     margin: 5px 0
 }
 
+#skills-mobile {
+    display: none;
+}
+
 
 /* MOBILE */
 
 @media only screen and (max-width: 800px) {
+    .wrapper {
+        margin: 0 15px;
+    }
     .header-top {
         flex-direction: column;
         align-content: center;
+    }
+    .name-title {
+        display: flex;
+        flex-direction: column-reverse;
     }
     .job-title {
         flex-direction: column-reverse;
@@ -187,5 +198,40 @@ footer {
     .work-logo {
         max-height: 75px;
         margin: 0 auto;
+    }
+    .techskills-parent {
+
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+    }
+    .sublinks {
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        background-color: #000;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    #cj-icon {
+        position: absolute;
+        right: 3;
+        transform: scaleY(-1);
+        margin-left: 300px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .job-title {
+        text-align: center;
+    }
+    #skills-mobile {
+        display: flex;
+    }
+    #skills-desktop {
+        display: none;
     }
 }

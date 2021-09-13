@@ -14,10 +14,10 @@
         <div class="container header-intro">
             <div class="container header-top">
                 <div class="name-title">
-                    <div>
-                        <img src="assets/favicon.png" class="header-profile-picture">
+                    <div id="cj-icon">
+                        <img src="assets/favicon.png" alt="icon of cartoon woman with glasses" class="header-profile-picture">
                     </div>
-                    <div>
+                    <div id="name-n-stuff">
                         <h3>Catherine Jarocki</h3>
                         <h4>Software Engineer</h4>
                     </div>
@@ -27,6 +27,8 @@
                         <a href="https://github.com/cjaro" class="sublinks" target="_blank">GitHub</a>
                         <a href="https://gitlab.com/cjaro" class="sublinks" target="_blank">GitLab</a>
                         <a href="https://linkedin.com/in/catherinejarocki" class="sublinks" target="_blank">LinkedIn</a>
+                        <a href="https://stackoverflow.com/users/7687180/cjaro" class="sublinks" target="_blank">StackOverflow</a>
+                        <a href="https://catherinetakes.pictures/" class="sublinks" target="_blank">Photography</a>
                     </div>
                 </div>
 
@@ -34,6 +36,101 @@
         </div>
         <div class="container portfolio-body">
             <div class="col-md-12">
+                <div class="section">
+                    <h1 class="">Technical Skills</h1>
+                    <div>
+                        <div class="techskills-parent" id="skills-desktop">
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>Angular</li>
+                                <li>React.js</li>
+                                <li>GraphQL</li>
+                                <li>Node.js</li>
+                                <li>TypeScript</li>
+                                <li>Python</li>
+                                <li>PHP</li>
+                                <li>MongoDB</li>
+                            </ul>
+                            <ul>
+                                <li>SQL</li>
+                                <li>Bash</li>
+                                <li>AWS:
+                                    <ul>
+                                        <li>Lambda</li>
+                                        <li>SNS</li>
+                                        <li>SSM</li>
+                                        <li>CloudWatch</li>
+                                        <li>IAM</li>
+                                        <li>S3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>REST APIs</li>
+                                <li>JSON</li>
+                                <li>Git & SVN Version Control</li>
+                                <li>Shopify
+                                    <ul>
+                                        <li>GraphQL & Admin APIs</li>
+                                        <li>Theme development and debugging</li>
+                                    </ul>
+                                </li>
+                                <li>WordPress
+                                    <ul>
+                                        <li>Managed hosting</li>
+                                        <li>Theme development</li>
+                                        <li>Custom plugin development</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="techskills-parent" id="skills-mobile">
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>Angular</li>
+                                <li>React.js</li>
+                                <li>GraphQL</li>
+                                <li>Node.js</li>
+                                <li>TypeScript</li>
+                                <li>Python</li>
+                                <li>PHP</li>
+                                <li>MongoDB</li>
+                                <li>SQL</li>
+                                <li>Bash</li>
+                            </ul>
+                            <ul>
+                                <li>AWS:
+                                    <ul>
+                                        <li>Lambda</li>
+                                        <li>SNS</li>
+                                        <li>SSM</li>
+                                        <li>CloudWatch</li>
+                                        <li>IAM</li>
+                                        <li>S3</li>
+                                    </ul>
+                                </li>
+                                <li>REST APIs</li>
+                                <li>JSON</li>
+                                <li>Git & SVN Version Control</li>
+                                <li>Shopify
+                                    <ul>
+                                        <li>GraphQL & Admin APIs</li>
+                                        <li>Theme development and debugging</li>
+                                    </ul>
+                                </li>
+                                <li>WordPress
+                                    <ul>
+                                        <li>Managed hosting</li>
+                                        <li>Theme development</li>
+                                        <li>Custom plugin development</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="section">
                     <h1 class="">Work Experience</h1>
                     <div>
@@ -43,14 +140,23 @@
                                     <div>
                                         <h4><b>Software Developer</b></h4>
                                         <h5>Northern Brewer</h5>
+                                        <p><em>July 2020 - Present</em></p>
                                     </div>
                                     <img src="assets/northern-brewer-logo.svg"
                                          class="work-logo nb-logo" alt="northern brewer logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>July 2020 - Present</em></p>
-                                    <p>I write, test, debug and deploy code for company-held software applications,
-                                        implementing web pages and REST APIs from mock-ups and business requirements.</p>
+                                    <p>I write code, test, and debug Python & JavaScript (React) software applications,
+                                        write scripts and REST functions for our Netsuite ERP, and implement web pages &
+                                        REST APIs from mock-ups and business requirements. I use RabbitMQ to monitor
+                                        messages from our queues and jobs, and Postgresql to store data.</p>
+                                    <p>I explore, create, and develop ways to improve business efficiencies while I
+                                        interpret business functions to understand requirements and translate technical
+                                        solutions. I deliver Shopify pages, updates, and business needs from, which
+                                        entails coding theme templates, re-architecting our store to a new theme to work
+                                        with Shopify Store 2.0 and the most recent versions of our Apps, ensuring
+                                        consistent brand representation across sites and stores, fixing bugs, and
+                                        enforcing ADA-compliance.</p>
                                 </div>
                             </div>
                             <hr>
@@ -59,11 +165,11 @@
                                     <div>
                                         <h4><b>Software Engineer</b></h4>
                                         <h5>AerisWeather</h5>
+                                        <p><em>June 2019 - June 2020</em></p>
                                     </div>
                                     <img src="assets/aeris-logo.png" class="work-logo cw-logo" alt="aeris weather logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>June 2019 - June 2020</em></p>
                                     <p>I developed features and tests for our APIs and assisted in the implementation of new APIs.</p>
                                     <p>I helped in the building of an Extract-Transform-Load system for our data-processing services,
                                         pulling information and raw data from various sources all around the world,
@@ -83,11 +189,11 @@
                                     <div>
                                         <h4><b>Contract Software Developer</b></h4>
                                         <h5>Clockwork</h5>
+                                        <p><em>January 2019 - May 2019</em></p>
                                     </div>
                                     <img src="assets/cw-logo.png" class="work-logo cw-logo" alt="clockwork logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>January 2019 - May 2019</em></p>
                                     <p>I developed applications and software solutions, collaborating with my team to provide
                                         smart and strategic recommendations to clients and work on multiple projects
                                         using many different technologies in a deadline-driven environment.</p>
@@ -101,11 +207,11 @@
                                     <div>
                                         <h4><b>Contract Web Developer</b></h4>
                                         <h5>aimClear</h5>
+                                        <p><em>October 2018 - December 2018</em></p>
                                     </div>
                                     <img src="assets/aimclear-logo.png" class="work-logo ac-logo" alt="aimclear logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>October 2018 - December 2018</em></p>
                                     <p>I was responsible for developing and maintaining web applications, troubleshooting issues,
                                         and finding efficient ways to improve services. This entailed continuing to enhance and refine
                                         my ability to solve problems with PHP, MySQL, JavaScript, jQuery, and CSS.</p>
@@ -122,11 +228,11 @@
                                     <div>
                                         <h4><b>Front End Developer</b></h4>
                                         <h5>Brandpoint</h5>
+                                        <p><em>November 2017 - October 2018</em></p>
                                     </div>
                                     <img src="assets/brandpoint-logo.png" class="work-logo bpt-logo" alt="brandpoint logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>November 2017 - October 2018</em></p>
                                     <p>I programmed full-stack solutions for our ASP.NET, MVC internal software,
                                         learning C# and advancing my familiarity with SQL.</p>
                                     <p>I handled front-end & UI development for our client-facing AngularJS web application,
@@ -145,11 +251,11 @@
                                     <div>
                                         <h4><b>Contract Web Developer</b></h4>
                                         <h5>Diedrich Research Propelled Marketing</h5>
+                                        <p><em>October 2017 - January 2018</em></p>
                                     </div>
                                     <img src="assets/drpm-logo.png" class="work-logo drpm-logo" alt="diedrich logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>October 2017 - January 2018</em></p>
                                     <p>On behalf of DRPM, I developed a new WordPress website for Professional Wireless
                                         Communications, a prominent radio & communications company in Burnsville, Minnesota.</p>
                                 </div>
@@ -159,12 +265,12 @@
                                 <div class="job-title">
                                     <div>
                                         <h4><b>Contract Software Developer</b></h4>
-                                            <h5>LuminFire</h5>
+                                        <h5>LuminFire</h5>
+                                        <p><em>April 2017 - October 2017</em></p>
                                     </div>
                                     <img src="assets/lf-logo.png" class="work-logo lf-logo" alt="luminfarts logo">
                                 </div>
                                 <div class="job-description">
-                                    <p><em>April 2017 - October 2017</em></p>
                                     <p>I worked on client websites, creating, updating, or migrating existing websites.</p>
                                     <p>I assisted in the development of a React.js project, and in this endeavor,
                                         I advanced my knowledge of JavaScript.</p>
@@ -177,12 +283,12 @@
                                         <div>
                                             <h4><b>Website Manager & Writing Tutor</b></h4>
                                             <h5>College of Saint Benedict & Saint John's University</h5>
+                                            <p><em>August 2015 - May 2016</em></p>
                                         </div>
                                         <img src="assets/csbsju-logo.jpg" class="work-logo csbsju-logo" alt="saint bens saint johns logo">
                                     </div>
                                 </div>
                                 <div class="job-description">
-                                    <p><em>August 2015 - May 2016</em></p>
                                     <p><b>Website Manager:</b> I managed our Ingeniux webpage, which included updating
                                         tutor bio pages, making sure all information & content was accurate and current,
                                         and assisting with student signups for tutoring accounts. I also learned basics
@@ -190,31 +296,6 @@
                                     <p><b>Writing Tutor</b>: I assisted graduate & undergraduate students with a variety
                                         of writing assignments and led task teams for Writing Center website maintenance and publicity.</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section">
-                    <h1 class="">Technical Skills</h1>
-                    <div>
-                        <div class="techskills-parent">
-                            <div>
-                                <p>JavaScript</p>
-                                <p>Python</p>
-                                <p>PHP</p>
-                                <p>SQL & MongoDB</p>
-                            </div>
-                            <div>
-                                <p>Node.js</p>
-                                <p>TypeScript</p>
-                                <p>Bash</p>
-                                <p>AWS: Lambda, SNS, SSM, CloudWatch, IAM, S3</p>
-                            </div>
-                            <div>
-                                <p>APIs: REST, JSON, SOAP</p>
-                                <p>Git & SVN Version Control</p>
-                                <p>WordPress: Theme & Plugin Development</p>
-                                <p>Shopify & eCommerce</p>
                             </div>
                         </div>
                     </div>
@@ -232,10 +313,16 @@
                                 <li>I studied a variety of subjects in a liberal arts environment, including English, French,
                                     Sociology, Anthropology, Physics, Biology, Microbiology, Biochemistry, Evolution,
                                     and my personal favorite, The Biology and Natural History of Maple Syrup.</li>
-                                <li>While at CSB/SJU, I participated on the cross country running team, the Nordic ski club,
-                                    All-College Choir, All-College Orchestra, was a DJ and Business Manager at the local
-                                    campus radio station KJNB, founded ad presided over the CSBSJJU Pre-Vet Club, and
-                                    worked at the library in the Inter-Library Loans department.</li>
+                                <li>I participated in a number of clubs and activities:</li>
+                                <ul>
+                                    <li>Competed on the cross country running team</li>
+                                    <li>Skied with the Nordic ski club despite losing our official team certification & institutional support</li>
+                                    <li>Sang alto with the All-College Choir</li>
+                                    <li>Played viola with the All-College Orchestra</li>
+                                    <li>DJ & the Business Manager on our campus radio station (KJNB)</li>
+                                    <li>Founded and presided over the CSBSJJU Pre-Veterinary Club</li>
+                                    <li>Worked at the library in the Inter-Library Loans department</li>
+                                </ul>
                             </ul>
                             <hr>
                             <h4>Full Stack Developer Certificate | Prime Digital Academy</h4>
@@ -265,7 +352,7 @@
                                 </ul>
                             </li>
                             <hr>
-                            <h4> Front-End Development Certificate | FreeCodeCamp, 2016</h4>
+                            <h4> Front-End Development Certificate | FreeCodeCamp</h4>
                             <p><em>October 2015 - December 2016</em></p>
                             <li>I was always interested in how mobile apps worked, and once I got to college,
                                 I got a computer of my own and had no excuse for ignorance. I began self-directed study of
@@ -274,8 +361,8 @@
                             <hr>
                             <h4> General Studies | University of Minnesota - Duluth</h4>
                             <p><em>Summer Terms 2014 & 2015</em></p>
-                            <p>I undertook a rigorous, accelerated path of study at UMD in my quest to become a veterinarin.
-                                I took Inorganic and Organic Chemistry to fulfill those prerequisites for entrance to
+                            <p>I pursued a rigorous, accelerated path of study at UMD in my quest to become a veterinarian,
+                                taking Inorganic and Organic Chemistry to fulfill those prerequisites for entrance to
                                 veterinary medical school, as well as Probability and Statistics to add another maths course
                                 to my existing Calculus skills. The courses I took over two summer terms at UMD were
                                 challenging and exhausting as I worked two jobs to save money and studied on breaks at those
@@ -295,16 +382,41 @@
                     </div>
                     <div>
                         <div class="activities-parent">
-                            <div class="activities activities-joyproj">
-                                <h4>The Joy Project</h4>
-                                <h5><em>April 2019 - November 2019</em></h5>
-                                <p>I put my passion for web development and expertise in WordPress & PHP to work as I
-                                    direct creation of and updates to internal and external websites and software programs,
-                                    looping in my knowledge of Adobe services. Using my skills in writing that I've developed
-                                    and honed over the years, I regularly update site content and performing regular back-ups of data.
-                                    I continually seek out more effective strategies for programming and/or hardware,
-                                    according to organizational needs.</p>
+                            <div class="mou">
+                                <h4>IT Committee & Software Developer, Minnesota Ornithologists' Union</h4>
+                                <h5><em>August 2020 - Present</em></h5>
+                                <p>I am assisting in the direction of the modernization and optimization of the MN
+                                    Ornithologists' Union's website (moumn.org). This is a vast project that requires
+                                    analysis and understanding of the current system and data, use-cases, and design.
+                                    Our intent is to incorporate modern and maintainable technologies and solid database
+                                    design principles to accomplish the goal of this project. </p>
+                                <p>From May-June 2021, we enlisted the invaluable services of the UX cohort at Prime
+                                    Digital Academy, and they spent three weeks researching, interviewing, and
+                                    consolidating insights, resources, and conclusions that they delivered at the
+                                    conclusion of their capstone project. The students gave us resources and ideas to work with.</p>
+                                <p>Stack:</p>
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>Angular</li>
+                                    <li>Node.js</li>
+                                    <li>Nest.js</li>
+                                    <li>Python</li>
+                                    <li>Strapi (CMS)</li>
+                                    <li>PostgresQL</li>
+                                    <li>Docker</li>
+                                </ul>
                             </div>
+<!--                            <hr>-->
+<!--                            <div class="activities activities-joyproj">-->
+<!--                                <h4>The Joy Project</h4>-->
+<!--                                <h5><em>April 2019 - November 2019</em></h5>-->
+<!--                                <p>I put my passion for web development and expertise in WordPress & PHP to work as I-->
+<!--                                    direct creation of and updates to internal and external websites and software programs,-->
+<!--                                    looping in my knowledge of Adobe services. Using my skills in writing that I've developed-->
+<!--                                    and honed over the years, I regularly update site content and performing regular back-ups of data.-->
+<!--                                    I continually seek out more effective strategies for programming and/or hardware,-->
+<!--                                    according to organizational needs.</p>-->
+<!--                            </div>-->
                             <hr>
                             <div class="activities activities-mspwwwp">
                                 <h4>MSP Women Who WordPress</h4>
