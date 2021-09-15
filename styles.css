@@ -18,23 +18,23 @@ body {
 }
 
 h1 {
-    font-size: 32px;
-}
-
-h2 {
     font-size: 28px;
 }
 
-h3 {
+h2 {
     font-size: 24px;
 }
 
-h4 {
+h3 {
     font-size: 20px;
 }
 
-h5 {
+h4 {
     font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
 }
 
 h1,
@@ -157,8 +157,8 @@ footer {
 }
 
 .section h1 {
-    border-bottom: 2px solid rgb(102, 125, 255);
-    border-top: 2px solid rgb(102, 125, 255);
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
     margin: 10px 0;
     padding: 15px 0
 }
