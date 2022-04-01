@@ -1,1 +1,1 @@
-This is the git repo for my personal portfolio at <https://catherinejarocki.com>.
+Repo for my personal portfolio site at <https://catherinejarocki.com>.
