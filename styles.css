@@ -88,14 +88,9 @@ li {
 }
 
 .sublinks {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
     margin: 5px;
-    text-decoration: none;
-    color: #fff;
+    text-decoration: underline;
     font-size: 16px;
-    background-color: #000;
     font-weight: 300
 }
 
@@ -125,7 +120,6 @@ button {
     background-color: #00ADEF;
 }
 
-
 .nb-logo {
     max-width: 250px;
 }
@@ -135,9 +129,7 @@ button {
     height: 60px;
 }
 
-.experience-individual {
-
-}
+.experience-individual {}
 
 .job-title {
     display: flex;
@@ -150,10 +142,6 @@ button {
 
 button a {
     color: #fff
-}
-
-a:hover {
-    text-decoration: none !important;
 }
 
 footer {
