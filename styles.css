@@ -89,9 +89,29 @@ li {
 
 .sublinks {
     margin: 5px;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 16px;
-    font-weight: 300
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sublinks-github {
+    background-color: #24292F;
+    color: #fff;
+}
+}
+.sublinks-gitlab {
+    background-color: #292961;
+    color: #fff;
+}
+.sublinks-linkedin {
+    background-color: #0A66C2;
+    color: #fff;
+}
+.sublinks-stack {
+    background-color: #F48225;
+    color: #fff;
 }
 
 button {
