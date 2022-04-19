@@ -96,19 +96,19 @@ li {
     border-radius: 5px;
 }
 
-.sublinks-github {
+.sub-github {
     background-color: #24292F;
     color: #fff;
 }
-.sublinks-gitlab {
+.sub-gitlab {
     background-color: #292961;
     color: #fff;
 }
-.sublinks-linkedin {
+.sub-linkedin {
     background-color: #0A66C2;
     color: #fff;
 }
-.sublinks-stack {
+.sub-stack {
     background-color: #F48225;
     color: #fff;
 }
