@@ -217,9 +217,8 @@ footer {
         max-height: 75px;
         margin: 0 auto;
     }
-    .techskills-parent {
+    .techskills-parent {}
 
-    }
     .links {
         display: flex;
         flex-direction: column;
@@ -234,12 +233,7 @@ footer {
         padding: 10px;
     }
     #cj-icon {
-        position: absolute;
-        right: 3;
-        transform: scaleY(-1);
-        margin-left: 300px;
-        margin-top: -10px;
-        margin-bottom: 10px;
+        display: none;
     }
     .job-title {
         text-align: center;
