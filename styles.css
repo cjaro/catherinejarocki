@@ -54,6 +54,10 @@ li {
     font-size: 14px;
 }
 
+hr {
+  color: #aaa
+}
+
 .header-intro {
     margin: 30px auto;
 }
@@ -90,7 +94,7 @@ li {
 .sublinks {
     margin: 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     padding: 10px;
     border-radius: 5px;
@@ -111,6 +115,10 @@ li {
 #sub-stack {
     background-color: #F48225;
     color: #fff;
+}
+#sub-photography {
+  background-color: #4CA800;
+  color: #fff;
 }
 
 button {
@@ -172,8 +180,8 @@ footer {
 }
 
 .section h1 {
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
     margin: 10px 0;
     padding: 15px 0
 }
