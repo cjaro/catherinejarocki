@@ -54,6 +54,10 @@ li {
     font-size: 14px;
 }
 
+hr {
+  color: #aaa
+}
+
 .header-intro {
     margin: 30px auto;
 }
@@ -88,15 +92,33 @@ li {
 }
 
 .sublinks {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 5px;
     margin: 5px;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sub-github {
+    background-color: #24292F;
     color: #fff;
-    font-size: 16px;
-    background-color: #000;
-    font-weight: 300
+}
+#sub-gitlab {
+    background-color: #292961;
+    color: #fff;
+}
+#sub-linkedin {
+    background-color: #0A66C2;
+    color: #fff;
+}
+#sub-stack {
+    background-color: #F48225;
+    color: #fff;
+}
+#sub-photography {
+  background-color: #4CA800;
+  color: #fff;
 }
 
 button {
@@ -125,7 +147,6 @@ button {
     background-color: #00ADEF;
 }
 
-
 .nb-logo {
     max-width: 250px;
 }
@@ -135,9 +156,7 @@ button {
     height: 60px;
 }
 
-.experience-individual {
-
-}
+.experience-individual {}
 
 .job-title {
     display: flex;
@@ -152,10 +171,6 @@ button a {
     color: #fff
 }
 
-a:hover {
-    text-decoration: none !important;
-}
-
 footer {
     bottom: 0;
 }
@@ -165,8 +180,8 @@ footer {
 }
 
 .section h1 {
-    border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
     margin: 10px 0;
     padding: 15px 0
 }
@@ -210,31 +225,23 @@ footer {
         max-height: 75px;
         margin: 0 auto;
     }
-    .techskills-parent {
+    .techskills-parent {}
 
-    }
     .links {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-content: center;
+        justify-content: center;
     }
     .sublinks {
         text-align: center;
-        color: #fff;
         font-size: 16px;
-        background-color: #000;
-        font-weight: 400;
         text-transform: uppercase;
         padding: 10px;
     }
     #cj-icon {
-        position: absolute;
-        right: 3;
-        transform: scaleY(-1);
-        margin-left: 300px;
-        margin-top: -10px;
-        margin-bottom: 10px;
+        display: none;
     }
     .job-title {
         text-align: center;
