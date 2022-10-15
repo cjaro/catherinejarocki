@@ -120,6 +120,10 @@ hr {
   background-color: #4CA800;
   color: #fff;
 }
+#sub-ebird {
+    background-color: rgb(27, 103, 0);
+    color: #fff;
+}
 
 button {
     border: none;
