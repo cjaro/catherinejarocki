@@ -64,6 +64,7 @@ hr {
 
 .header-top {
     display: flex;
+    flex-direction: column;
     margin-bottom: 15px !important;
     justify-content: space-between;
 }
