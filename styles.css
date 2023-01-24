@@ -29,15 +29,15 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h5 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h1,
@@ -46,12 +46,14 @@ h3,
 h4,
 h5 {
     margin: 10px 0;
-    font-weight: 300
+    font-weight: 300;
+    text-align: justify;
 }
 
 p,
 li {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
 }
 
 hr {
@@ -64,6 +66,7 @@ hr {
 
 .header-top {
     display: flex;
+    flex-direction: column;
     margin-bottom: 15px !important;
     justify-content: space-between;
 }
@@ -101,25 +104,33 @@ hr {
 }
 
 #sub-github {
-    background-color: #24292F;
+    background-color: rebeccapurple;
     color: #fff;
 }
 #sub-gitlab {
-    background-color: #292961;
+    background-color: darkblue;
     color: #fff;
 }
 #sub-linkedin {
     background-color: #0A66C2;
     color: #fff;
 }
+
 #sub-stack {
+    background-color: #4CA800;
+    color: #fff;
+}
+
+#sub-ebird {
     background-color: #F48225;
     color: #fff;
 }
+
 #sub-photography {
-  background-color: #4CA800;
-  color: #fff;
+    background-color: orangered;
+    color: #fff;
 }
+
 
 button {
     border: none;
@@ -130,13 +141,7 @@ button {
     height: 75px;
 }
 
-.cw-logo {}
-
-.ac-logo {}
-
 .bpt-logo {}
-
-.drpm-logo {}
 
 .csbsju-logo {
     Max-width: 300px;
@@ -200,6 +205,21 @@ footer {
     display: none;
 }
 
+.pub-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pub-inner li {
+    text-align: justify;
+    padding: 15px;
+}
+
+.pub-img {
+    height: 100px
+}
+
 
 /* MOBILE */
 
@@ -244,7 +264,7 @@ footer {
         display: none;
     }
     .job-title {
-        text-align: center;
+        text-align: left;
     }
     #skills-mobile {
         display: flex;
@@ -252,4 +272,16 @@ footer {
     #skills-desktop {
         display: none;
     }
+    .pub-outer {
+        flex-direction: column-reverse;
+    }
+    .pub-img {
+        height: 175px;
+        margin: 0 auto
+    }
+    #pub-img-bbwd {
+        height: 175px;
+    }
+
+
 }
