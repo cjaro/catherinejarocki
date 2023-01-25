@@ -168,6 +168,11 @@ button {
     justify-content: space-between;
 }
 
+.ed-logo {
+    max-width: 100%;
+    max-height: 75px;
+}
+
 .techskills-parent>div {
     width: 33%;
 }
@@ -217,7 +222,29 @@ footer {
 }
 
 .pub-img {
-    height: 100px
+    height: 100px;
+    padding: 0 0 0 15px
+}
+#pub-img-bbwd {
+    width: 200px;
+}
+
+.mmn-outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mmn-loon-logo, #mmn-2021 {
+    max-height: 75px;
+}
+
+.bbrp-outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bbrp-outer > img {
+    max-height: 75px;
 }
 
 
@@ -316,12 +343,44 @@ footer {
     }
     .pub-img {
         height: 100%;
-        width: 100%;
-        margin: 0 auto
+        margin: 0 auto;
+        padding: 0;
+        width: 450px;
     }
     #pub-img-bbwd {
         height: 275px;
+        width: 100%;
     }
-
-
+    .ed-logo {}
+    .ed-logo-outer {
+        display: flex;
+        margin: 0 auto;
+    }
+    #ed-logo-prime,
+    #ed-logo-fcc {
+        flex-direction: row;
+    }
+    #ed-logo-prime > .col-md-6,
+    #ed-logo-fcc > .col-md-6 {
+        margin: 0
+    }
+    #prime-logo,
+    #fcc-logo {
+        margin: 0
+    }
+    .mmn-outer {
+        flex-direction: column-reverse;
+    }
+    #mmn-logos {
+        display: flex;
+        justify-content: space-around;
+    }
+    .bbrp-outer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bbrp-outer > img {
+        max-width: 350px;
+        margin: 0 auto;
+    }
 }
