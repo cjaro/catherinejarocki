@@ -177,6 +177,15 @@ button {
     width: 33%;
 }
 
+.certificates-parent {
+  display: flex;
+  justify-content: space-between; 
+}
+
+#aws-ccp-logo > img {
+  max-width: 150px;
+}
+
 button a {
     color: #fff
 }
@@ -382,5 +391,12 @@ footer {
     .bbrp-outer > img {
         max-width: 350px;
         margin: 0 auto;
+    }
+    .certificates-parent {
+      display: flex;
+      justify-content: space-between; 
+    }
+    #aws-ccp-logo > img {
+      max-width: 100px;
     }
 }
