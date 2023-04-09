@@ -143,8 +143,8 @@ button {
 
 .bpt-logo {}
 
-.csbsju-logo {
-    Max-width: 300px;
+#csbsju-logo {
+    width: 300px !important;
     height: 50px;
 }
 
@@ -183,7 +183,7 @@ button {
 }
 
 #aws-ccp-logo > img {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 button a {
