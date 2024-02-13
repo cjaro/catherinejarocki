@@ -81,111 +81,15 @@ hr {
 
 }
 
-.header-profile-picture {
-    max-width: 100px;
-}
-
-
 .links {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     margin: 15px 0
 }
-
-.sublinks {
-    margin: 5px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 300;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#sub-github {
-    background-color: rebeccapurple;
-    color: #fff;
-}
-#sub-gitlab {
-    background-color: darkblue;
-    color: #fff;
-}
-#sub-linkedin {
-    background-color: #0A66C2;
-    color: #fff;
-}
-
-#sub-ebird {
-    background-color:  #4CA800;
-    color: #fff;
-}
-
-#sub-photography {
-    background-color: orangered;
-    color: #fff;
-}
-
-
-button {
-    border: none;
-    background-color: #fff;
-}
-
-.work-logo {
-    height: 75px;
-}
-
-.bpt-logo {}
-
-#csbsju-logo {
-    width: 300px !important;
-    height: 50px;
-}
-
-.lf-logo {
-    background-color: #00ADEF;
-}
-
-.nb-logo {
-    max-width: 250px;
-}
-
-.op-im-logo {
-    width: 250px;
-    height: 60px;
-}
-
-.experience-individual {}
 
 .job-title {
     display: flex;
     justify-content: space-between;
-}
-
-.ed-logo {
-    max-width: 100%;
-    max-height: 75px;
-}
-
-.techskills-parent>div {
-    width: 33%;
-}
-
-.certificates-parent {
-  display: flex;
-  justify-content: space-between; 
-}
-
-#aws-ccp-logo > img {
-  max-width: 100px;
-}
-
-button a {
-    color: #fff
-}
-
-footer {
-    bottom: 0;
 }
 
 .section {
@@ -198,58 +102,6 @@ footer {
     margin: 10px 0;
     padding: 15px 0
 }
-
-.techskills-parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.techskills-parent>div>p {
-    margin: 5px 0
-}
-
-#skills-mobile {
-    display: none;
-}
-
-.pub-outer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.pub-inner li {
-    text-align: justify;
-    padding: 15px;
-}
-
-.pub-img {
-    height: 100px;
-    padding: 0 0 0 15px
-}
-#pub-img-bbwd {
-    width: 200px;
-}
-
-.mmn-outer {
-    display: flex;
-    justify-content: space-between;
-}
-
-#mmn-loon-logo, #mmn-2021 {
-    max-height: 75px;
-}
-
-.bbrp-outer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.bbrp-outer > img {
-    max-height: 75px;
-}
-
 
 /* MOBILE */
 
@@ -296,101 +148,5 @@ footer {
     }
     .job-title {
         flex-direction: column-reverse;
-    }
-    .work-logo {
-        max-height: 75px;
-        margin: 0 auto;
-    }
-    .techskills-parent {}
-
-    .links {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-content: center;
-        justify-content: center;
-    }
-    .sublinks {
-        text-align: center;
-        font-size: 16px;
-        text-transform: uppercase;
-        padding: 10px;
-    }
-    #cj-icon {
-        display: none;
-    }
-    .job-title {
-        text-align: left;
-    }
-    #skills-mobile {
-        display: flex;
-    }
-    #skills-desktop {
-        display: none;
-    }
-    .pub-outer {
-        flex-direction: column-reverse;
-    }
-    .pub-outer > div.col-md-4 {
-        margin: 0 auto
-    }
-    .pub-inner h4,
-    .pub-inner h5 {
-        margin: 10px auto;
-        font-weight: 300;
-        text-align: center;
-    }
-    .pub-inner li {
-        text-align: justify;
-        padding: 5px;
-    }
-    .pub-img {
-        height: 100%;
-        margin: 0 auto;
-        padding: 0;
-        width: 450px;
-    }
-    #pub-img-bbwd {
-        height: 275px;
-        width: 100%;
-    }
-    .ed-logo {}
-    .ed-logo-outer {
-        display: flex;
-        margin: 0 auto;
-    }
-    #ed-logo-prime,
-    #ed-logo-fcc {
-        flex-direction: row;
-    }
-    #ed-logo-prime > .col-md-6,
-    #ed-logo-fcc > .col-md-6 {
-        margin: 0
-    }
-    #prime-logo,
-    #fcc-logo {
-        margin: 0
-    }
-    .mmn-outer {
-        flex-direction: column-reverse;
-    }
-    #mmn-logos {
-        display: flex;
-        justify-content: space-around;
-    }
-    .bbrp-outer {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .bbrp-outer > img {
-        max-width: 350px;
-        margin: 0 auto;
-    }
-    .certificates-parent {
-      display: flex;
-      justify-content: space-between; 
-    }
-    #aws-ccp-logo > img {
-      max-width: 100px;
     }
 }
