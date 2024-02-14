@@ -155,6 +155,9 @@ hr {
         display: flex;
         flex-direction: column-reverse;
     }
+    .links {
+        justify-content: space-around;
+    }
     .job-title {
         flex-direction: column-reverse;
     }
