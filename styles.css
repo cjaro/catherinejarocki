@@ -158,4 +158,7 @@ hr {
     .job-title {
         flex-direction: column-reverse;
     }
+    .job-title-previous {
+        flex-direction: column !important;
+    }
 }
